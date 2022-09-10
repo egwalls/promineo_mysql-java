@@ -19,7 +19,7 @@ public class DbConnection {
 		
 		try {
 			Connection conn = DriverManager.getConnection(uri);
-			System.out.println("Successfully established connection at " + uri);
+			System.out.println("Successfully established connection!");
 			return conn;
 			
 		} catch (SQLException e) {
